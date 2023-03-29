@@ -1,0 +1,33 @@
+.banner {
+  background-image: url("../images/banner-img-1.jpg");
+  transition: all ease-in-out 0.5s;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-content {
+  h2 {
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: "Playfair Display", serif;
+  }
+  text-align: center;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+  font-size: 40px;
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 576px) {
+  .banner-content h2 {
+    font-size: 25px;
+  }
+}
